@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
 # Properties
 -include $(DEVICE_PATH)/system_prop.mk
 -include $(DEVICE_PATH)/configs/mtk_services_log.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 #ImsInit
 PRODUCT_PACKAGES += \
