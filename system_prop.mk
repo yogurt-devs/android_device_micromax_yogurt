@@ -24,6 +24,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0
 
+# IMS
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1
+
 # Kernel
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.kernel.zio=38,108,105,16
