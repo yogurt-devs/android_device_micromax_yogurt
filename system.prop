@@ -39,3 +39,9 @@ wifi.tethering.interface=ap0
 persist.vendor.camera.privapp.list=com.android.camera,com.google.camera,org.lineageos.aperture
 vendor.camera.aux.packagelist=com.android.camera,com.google.camera,net.sourceforge.opencamera,org.lineageos.aperture
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
