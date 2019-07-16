@@ -85,3 +85,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
     dalvik.vm.boot-dex2oat-threads=8 \
     dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+
+# OMX
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    debug.stagefright.omx_default_rank.sw-audio=1 \
+    debug.stagefright.omx_default_rank=0
