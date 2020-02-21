@@ -85,6 +85,11 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-impl \
     android.hardware.keymaster@4.0-service
 
+# KPOC
+PRODUCT_PACKAGES += \
+    libsuspend \
+    android.hardware.health@2.0
+
 # Ims
 PRODUCT_PACKAGES += \
     mtk-ims \
