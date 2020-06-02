@@ -39,3 +39,9 @@ on post-fs
 
 on property:persist.vendor.radio.port_index=""
     setprop sys.usb.config adb
+
+on property:persist.sys.e7746.dt2w=0
+    exec /system/bin/sendevent /dev/input/event3 0 1 4
+
+on property:persist.sys.e7746.dt2w=1
+    exec /system/bin/sendevent /dev/input/event3 0 1 5
