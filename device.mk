@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     libvulkan
 
+# DT2W
+PRODUCT_PACKAGES += \
+    DT2W-Service-MT6768
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
