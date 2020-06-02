@@ -968,3 +968,9 @@ service charger /system/bin/charger
 # Disable AOSP RIL if MTK RIL is up
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
+
+on property:persist.sys.MT6768.dt2w=0
+    exec /system/bin/sendevent /dev/input/event3 0 1 4
+
+on property:persist.sys.MT6768.dt2w=1
+    exec /system/bin/sendevent /dev/input/event3 0 1 5
