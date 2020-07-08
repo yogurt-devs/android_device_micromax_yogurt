@@ -16,7 +16,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Media
 PRODUCT_PRODUCT_PROPERTIES += \
-    media.stagefright.thumbnail.prefer_hw_codecs=true
+    media.stagefright.thumbnail.prefer_hw_codecs=true \
+    debug.stagefright.ccodec=0
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
