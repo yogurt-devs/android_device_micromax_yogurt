@@ -7,7 +7,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=480 \
     qemu.hw.mainkeys=0 \
     ro.opengles.version=196610 \
-    debug.cpurend.vsync=false
+    debug.cpurend.vsync=false \
+    ro.surface_flinger.running_without_sync_framework=true
 
 # MTK Performance
 PRODUCT_PRODUCT_PROPERTIES += \
