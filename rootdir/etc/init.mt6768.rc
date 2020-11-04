@@ -7,6 +7,9 @@ on init
     mount none /system/etc/fstab.mt6768 /vendor/etc/fstab.mt6768 bind
     mount none /vendor/lost+found /vendor/overlay bind
 
+on boot
+    setprop init.svc.console stopped
+
 on post-fs-data
     chmod 0666 /dev/video0
     chmod 0666 /dev/video1
