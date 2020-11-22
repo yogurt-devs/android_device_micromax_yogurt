@@ -21,7 +21,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.camera.HAL3.enabled=1
+    persist.camera.HAL3.enabled=1 \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
 
 # WFD
 PRODUCT_PRODUCT_PROPERTIES += \
