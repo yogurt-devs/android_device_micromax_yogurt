@@ -92,6 +92,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Symbols
+PRODUCT_PACKAGES += \
+    libshim_showlogo
+
 # RRO_Overlays
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
