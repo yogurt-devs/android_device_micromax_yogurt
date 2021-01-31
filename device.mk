@@ -75,6 +75,10 @@ PRODUCT_COPY_FILES += \
 # Properties
 -include $(DEVICE_PATH)/system_prop.mk
 
+#ImsInit
+PRODUCT_PACKAGES += \
+    ImsInit
+
 # Screen density
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
