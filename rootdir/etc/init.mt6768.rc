@@ -8,7 +8,7 @@ on init
     mount none /vendor/lost+found /vendor/overlay bind
 
 on boot
-    setprop init.svc.console stopped
+    stop console
 
 on post-fs-data
     chmod 0666 /dev/video0
