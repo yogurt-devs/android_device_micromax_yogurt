@@ -11,3 +11,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Media
 PRODUCT_PRODUCT_PROPERTIES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true
+
+# Camera
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.camera.HAL3.enabled=1
