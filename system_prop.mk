@@ -15,3 +15,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.camera.HAL3.enabled=1
+
+# WFD
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.wfd.nohdcp=1 \
+    persist.debug.wfd.enable=1 \
+    persist.sys.wfd.virtual=0
