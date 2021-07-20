@@ -78,6 +78,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0 \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
+    libhwbinder.vendor \
+    libhidltransport.vendor
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
