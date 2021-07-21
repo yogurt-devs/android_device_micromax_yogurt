@@ -24,6 +24,14 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+function blob_fixup {
+    case "$1" in
+        vendor/lib/hw/audio.primary.mt6768.so)
+            "$PATCHELF" --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "$2"
+            ;;
+    esac
+}
+
 # Default to sanitizing the vendor folder before extraction
 CLEAN_VENDOR=true
 
