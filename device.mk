@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
     libkeymaster4 \
     libkeymaster4support
 
+PRODUCT_PACKAGES += \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl \
+
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
