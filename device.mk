@@ -127,7 +127,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Symbols
 PRODUCT_PACKAGES += \
-    libshim_showlogo
+    libshim_showlogo \
+    libshim_vtservice
 
 # RRO_Overlays
 PRODUCT_PACKAGES += \
