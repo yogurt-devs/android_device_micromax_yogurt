@@ -99,7 +99,9 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     libaudiofondation.vendor \
     libtinycompress \
-    libbtconfigstore
+    libbtconfigstore \
+    libalsautils \
+    libnbaio_mono
 
 # Health
 PRODUCT_PACKAGES += \
