@@ -10,3 +10,8 @@ cc_library_shared {
     ],
     include_dirs: [ "system/keymaster/include" ],
 }
+
+cc_library_shared {
+    name: "libshim_vtservice",
+    srcs: ["libshim_vtservice.cpp"],
+}

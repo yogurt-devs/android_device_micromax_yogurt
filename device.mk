@@ -321,7 +321,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshim_beanpod
+    libshim_beanpod \
+    libshim_vtservice
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
