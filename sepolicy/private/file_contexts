@@ -6,3 +6,6 @@
 
 # VoLTE
 /system/bin/vtservice           u:object_r:vtservice_exec:s0
+
+# DT2W Script
+/system/bin/dt2w_event  u:object_r:dt2w_event_exec:s0

@@ -51,6 +51,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     DT2W-Service-Yogurt
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/app/dt2w/dt2w_event:$(TARGET_COPY_OUT_SYSTEM)/bin/dt2w_event
+
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \

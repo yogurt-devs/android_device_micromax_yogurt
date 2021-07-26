@@ -47,11 +47,11 @@ on post-fs
 on property:persist.vendor.radio.port_index=""
     setprop sys.usb.config adb
 
-on property:persist.sys.e7746.dt2w=0
-    exec /system/bin/sendevent /dev/input/event3 0 1 4
+on property:persist.sys.yogurt.dt2w=0
+    exec -- /system/bin/dt2w_event 4
 
-on property:persist.sys.e7746.dt2w=1
-    exec /system/bin/sendevent /dev/input/event3 0 1 5
+on property:persist.sys.yogurt.dt2w=1
+    exec -- /system/bin/dt2w_event 5
 
 # Bootlogger service, capture logs on device init
 service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
