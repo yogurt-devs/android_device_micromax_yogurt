@@ -673,8 +673,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.mtk_rild_read_imsi=1 \
     ro.vendor.mtk_telephony_add_on_policy=0 \
     ro.vendor.radio.max.multisim=dsds \
-    vendor.rild.libargs=-d /dev/ttyC0 \
-    vendor.rild.libpath=mtk-ril.so \
+
 # Shutdown
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.odm.shutdown_animation_play_time=6 \
