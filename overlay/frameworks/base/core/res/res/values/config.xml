@@ -284,7 +284,7 @@
      <integer name="config_longPressOnHomeBehavior">0</integer>
 
     <!--  Maximum number of supported users -->
-     <integer name="config_multiuserMaximumUsers">1</integer>
+     <integer name="config_multiuserMaximumUsers">5</integer>
 
     <!-- Default value for led color when battery is fully charged -->
      <integer name="config_notificationsBatteryFullARGB">0xFF00FF00</integer>
