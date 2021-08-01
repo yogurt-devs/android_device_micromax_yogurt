@@ -20,10 +20,12 @@ import re
 def FullOTA_InstallEnd(info):
   input_zip = info.input_zip
   OTA_InstallEnd(info, input_zip)
+  return
 
 def IncrementalOTA_InstallEnd(info):
   input_zip = info.target_zip
   OTA_InstallEnd(info, input_zip)
+  return
 
 def AddImage(info, input_zip, basename, dest):
   name = basename
@@ -35,3 +37,5 @@ def OTA_InstallEnd(info, input_zip):
   info.script.Print("Patching device-tree and verity images...")
   AddImage(info, input_zip, "dtbo.img", "/dev/block/platform/bootdevice/by-name/dtbo")
   AddImage(info, input_zip, "vbmeta.img", "/dev/block/platform/bootdevice/by-name/vbmeta")
+  AddImage(info, input_zip, "vbmeta_system.img", "/dev/block/platform/bootdevice/by-name/vbmeta_system")
+  return
