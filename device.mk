@@ -47,7 +47,8 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.mt6768
+    fstab.mt6768 \
+    init.mt6768.rc
 
 # HIDL
 PRODUCT_PACKAGES += \
