@@ -999,6 +999,14 @@ service osi /system/bin/osi
     oneshot
     #seclabel u:r:osi:s0
 
+# Charger
+service charger /bin/chargeonlymode
+    class charger
+    critical
+    #seclabel u:r:charger:s0
+    group system graphics
+    seclabel u:r:healthd:s0
+
 # Disable AOSP RIL if MTK RIL is up
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
