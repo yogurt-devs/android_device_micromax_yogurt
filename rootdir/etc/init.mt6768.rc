@@ -5,3 +5,7 @@ on init
     # Override vendor fstab
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6768 /vendor/etc/fstab.mt6768 bind
+
+on post-fs-data
+    chmod 0666 /dev/video0
+    chmod 0666 /dev/video1
