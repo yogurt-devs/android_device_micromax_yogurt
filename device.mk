@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Call proprietary blob setup
+$(call inherit-product, vendor/micromax/E7746/E7746-vendor.mk)
+
 # Define Dynamic Partition support
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
