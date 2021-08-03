@@ -7,12 +7,17 @@ on init
     mount none /system/etc/fstab.mt6768 /vendor/etc/fstab.mt6768 bind
     mount none /vendor/lost+found /vendor/overlay bind
 
-    # Force disable ViLTE support
-    setprop persist.vendor.vilte_support 0
-
 on post-fs-data
     chmod 0666 /dev/video0
     chmod 0666 /dev/video1
+
+    setprop persist.vendor.mtk.volte.enable 0
+    setprop persist.vendor.mtk_ct_volte_support 0
+    setprop persist.dbg.allow_ims_off 1
+    setprop persist.dbg.volte_avail_ovr 1
+    setprop persist.dbg.vt_avail_ovr 1
+    setprop persist.dbg.wfc_avail_ovr 1
+    setprop persist.vendor.vilte_support 0
 
 on property:sys.boot_completed=1
     # ZRAM
