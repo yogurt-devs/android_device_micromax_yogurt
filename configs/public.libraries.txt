@@ -1,3 +1,5 @@
 libOpenCL.so
 libprotobuf-cpp-full.so
 libprotobuf-cpp-lite.so
+libarmnn_ndk.mtk.so
+libcmdl_ndk.mtk.so
