@@ -59,6 +59,10 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \

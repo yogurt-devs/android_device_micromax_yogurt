@@ -262,10 +262,6 @@ bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
 
-# Configstore
-vendor/bin/hw/android.hardware.configstore@1.1-service
-vendor/etc/init/android.hardware.configstore@1.1-service.rc
-
 # DRM
 
 # DRM-Hardware
@@ -368,11 +364,7 @@ vendor/lib64/hw/gps.default.so
 # GPS-Hardware
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.mt6768.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.mt6768.so
 
 # Graphics
@@ -385,10 +377,6 @@ vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/libOpenCL.so
-
-# Health
-vendor/bin/hw/android.hardware.health@2.0-service
-vendor/etc/init/android.hardware.health@2.0-service.rc
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod
@@ -404,16 +392,6 @@ vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
-
-# Lights
-vendor/lib/hw/lights.mt6768.so
-vendor/lib64/hw/lights.mt6768.so
-
-# Listen
-vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib/hw/sound_trigger.primary.mt6768.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib64/hw/sound_trigger.primary.mt6768.so
 
 # Kernel-Modules
 vendor/lib/modules/bt_drv.ko
@@ -674,7 +652,6 @@ vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensor_custom.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/thermal
 vendor/bin/thermalloadalgod
 vendor/bin/thermal_manager
@@ -684,27 +661,16 @@ vendor/etc/.tp/.thermal_policy_05
 vendor/etc/.tp/.thermal_policy_08
 vendor/etc/.tp/thermal.conf
 vendor/etc/.tp/thermal.off.conf
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/init/init.thermal_manager.rc
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/libthermalalgo.so
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 
 # Thermal-Hardware
 vendor/lib/hw/thermal.mt6768.so
 vendor/lib64/hw/thermal.mt6768.so
 
 # Time
-
-# Vibrator
-vendor/bin/hw/android.hardware.vibrator@1.0-service
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib/hw/vibrator.default.so
-vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib64/hw/vibrator.default.so
 
 # WiFi
 vendor/bin/hw/wpa_supplicant
