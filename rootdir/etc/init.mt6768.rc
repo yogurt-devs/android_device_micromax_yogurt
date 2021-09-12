@@ -28,3 +28,6 @@ on post-fs
     # (at post-fs, the fstab has already been used to mount the partitions,
     #  so it is fine to just revert back)
     umount /vendor/etc/fstab.mt6768
+
+on property:persist.vendor.radio.port_index=""
+    setprop sys.usb.config adb
