@@ -104,6 +104,8 @@ PRODUCT_PACKAGES += \
 
 # RRO_Overlays
 PRODUCT_PACKAGES += \
+    android.hardware.wifi.hostapd@1.0 \
+    android.hardware.wifi.hostapd@1.1 \
     TetheringConfigOverlay \
     WifiOverlay
 
