@@ -1,3 +1,7 @@
+# Bluetooth
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.bluetooth.bluetooth_audio_hal.disabled=true
+
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=480 \
