@@ -13,7 +13,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.mtk_perf_simple_start_win=1 \
     ro.mtk_perf_fast_start_win=1 \
-    ro.mtk_perf_response_time=1
+    ro.mtk_perf_response_time=1 \
+    ro.config.avoid_gfx_accel=true \
 
 # Pre-Rendering
 PRODUCT_PRODUCT_PROPERTIES += \
