@@ -39,10 +39,6 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    factory_init.connectivity.rc \
-    factory_init.project.rc \
-    factory_init.rc \
-    init.ago.rc \
     init.bt_drv.rc \
     init.connectivity.rc \
     init.fmradio_drv.rc \
@@ -52,13 +48,7 @@ PRODUCT_PACKAGES += \
     init.mt6768.usb.rc \
     init.wmt_drv.rc \
     init.wlan_drv.rc \
-    init.project.rc \
     init.sensor_1_0.rc \
-    meta_init.connectivity.rc \
-    meta_init.modem.rc \
-    meta_init.project.rc \
-    meta_init.rc \
-    multi_init.rc \
     fstab.mt6768 \
     ueventd.mt6768.rc \
 
