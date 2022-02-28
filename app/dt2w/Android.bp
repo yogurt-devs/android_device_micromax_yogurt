@@ -27,5 +27,16 @@ android_app {
 
     optimize: {
         enabled: false,
-    }
+    },
+
+    required: [
+        "privapp-permissions_org.lineageos.dt2w.E7746",
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions_org.lineageos.dt2w.E7746",
+    sub_dir: "permissions",
+    src: "privapp-permissions_org.lineageos.dt2w.E7746.xml",
+    filename_from_src: true,
 }
