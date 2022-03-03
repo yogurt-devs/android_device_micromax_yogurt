@@ -1,0 +1,2 @@
+# Mediatek
+vendor.mediatek.hardware.wifi.hostapd::IHostapd u:object_r:hal_mtk_hostapd_hwservice:s0
