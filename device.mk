@@ -51,6 +51,11 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     DT2W-Service-E7746
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
