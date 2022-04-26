@@ -1,0 +1,2 @@
+get_prop(rild, imsi_prop)
+set_prop(rild, imsi_prop)
