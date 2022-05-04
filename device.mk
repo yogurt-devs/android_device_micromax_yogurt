@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libunwindstack.vendor
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.yogurt
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0.vendor \
