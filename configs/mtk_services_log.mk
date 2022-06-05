@@ -276,3 +276,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.log.tag.hwcomposer=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.netd=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.MDP=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.ccci_mdinit=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.thermal_repeater=$(VENDOR_LOG_LEVEL) \
