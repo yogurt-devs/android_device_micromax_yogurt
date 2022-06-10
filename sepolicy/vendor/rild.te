@@ -1,2 +1,3 @@
 get_prop(rild, imsi_prop)
 set_prop(rild, imsi_prop)
+get_prop(rild, mtk_md_version_prop)
