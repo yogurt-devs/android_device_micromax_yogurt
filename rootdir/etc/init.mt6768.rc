@@ -31,6 +31,7 @@ on fs
     mount_all /vendor/etc/fstab.mt6768 --early
     mount_all /vendor/etc/fstab.mt6768 --late
     write /proc/sys/vm/swappiness 60
+    write /proc/sys/vm/direct_swappiness 50
 
 on post-fs
     # Unmount the overridden fstab because the SELinux label is incorrect
