@@ -6,6 +6,10 @@ on init
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6768 /vendor/etc/fstab.mt6768 bind
 
+    # Force disable ViLTE support
+    setprop persist.vendor.vilte_support 0
+
 on post-fs-data
     chmod 0666 /dev/video0
     chmod 0666 /dev/video1
+
