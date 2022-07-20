@@ -93,6 +93,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ImsInit
 
+# MTKInCallService
+PRODUCT_PACKAGES += \
+    MtkInCallService
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
