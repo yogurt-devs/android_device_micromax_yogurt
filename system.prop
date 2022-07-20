@@ -5,6 +5,7 @@ persist.sys.front_camera_sound_type=1
 qemu.hw.mainkeys=0
 ro.audio.silent=0
 ro.camera.sound.forced=0
+ro.config.vc_call_vol_steps=15
 ro.com.android.dataroaming=true
 ro.com.google.rlz_ap_whitelist=YA
 ro.com.google.rlzbrandcode=MIIX
