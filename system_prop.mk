@@ -73,7 +73,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.sys.usb.storage.type=mtp \
     ro.sys.usb.mtp.whql.enable=0 \
     ro.sys.usb.charging.only=yes \
-    ro.sys.usb.bicr=no
+    ro.sys.usb.bicr=no \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=adb
 
 # Dex2oat
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
