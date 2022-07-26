@@ -861,8 +861,6 @@ vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der
 vendor/etc/ipsec/ssl/openssl.cnf
 vendor/etc/ipsec/strongswan.conf
 vendor/etc/mtk_omx_core.cfg
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/power_app_cfg.xml
 vendor/etc/security/cacerts/00673b5b.0
 vendor/etc/security/cacerts/04f60c28.0
