@@ -25,6 +25,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     debug.stagefright.ccodec=0
 
+# Permissions
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log
+
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.camera.HAL3.enabled=1 \
