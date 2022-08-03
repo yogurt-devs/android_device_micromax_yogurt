@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/micromax/E7746
+DEVICE_PATH := device/micromax/yogurt
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := E7746,E6746
@@ -88,7 +88,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r353983c1
 TARGET_KERNEL_CONFIG := E7746_defconfig
-TARGET_KERNEL_SOURCE := kernel/micromax/e7746
+TARGET_KERNEL_SOURCE := kernel/micromax/yogurt
 
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE)

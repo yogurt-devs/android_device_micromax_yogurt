@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_E7746.mk
+    $(LOCAL_DIR)/lineage_yogurt.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_E7746-user \
-    lineage_E7746-userdebug \
-    lineage_E7746-eng
+    lineage_yogurt-user \
+    lineage_yogurt-userdebug \
+    lineage_yogurt-eng

@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.E7746;
+package org.lineageos.dt2w.yogurt;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.UserHandle;
 
 public class OnBootCompleteReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
-        Intent sIntent = new Intent(context, DT2WServiceE7746.class);
+        Intent sIntent = new Intent(context, DT2WServiceYOGURT.class);
         context.startServiceAsUser(sIntent, UserHandle.CURRENT);
     }
 }

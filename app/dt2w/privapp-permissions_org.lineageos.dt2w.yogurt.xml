@@ -12,7 +12,7 @@
      limitations under the License.
 -->
 <permissions>
-    <privapp-permissions package="org.lineageos.dt2w.E7746">
+    <privapp-permissions package="org.lineageos.dt2w.yogurt">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 </permissions>

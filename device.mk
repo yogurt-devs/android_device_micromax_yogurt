@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/micromax/E7746
+DEVICE_PATH := device/micromax/yogurt
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Call proprietary blob setup
-$(call inherit-product, vendor/micromax/E7746/E7746-vendor.mk)
+$(call inherit-product, vendor/micromax/yogurt/yogurt-vendor.mk)
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
@@ -49,7 +49,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-E7746
+    DT2W-Service-Yogurt
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \

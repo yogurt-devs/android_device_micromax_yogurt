@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.E7746;
+package org.lineageos.dt2w.yogurt;
 
 import android.app.Service;
 import android.content.ContentResolver;
@@ -13,8 +13,8 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings.Secure;
 
-public class DT2WServiceE7746 extends Service {
-    private static final String TAG = "DT2WServiceE7746";
+public class DT2WServiceYOGURT extends Service {
+    private static final String TAG = "DT2WServiceYOGURT";
     private Context mContext;
     private Handler mHandler;
     private CustomSettingsObserver mCustomSettingsObserver;
