@@ -52,22 +52,3 @@ on property:persist.sys.yogurt.dt2w=0
 
 on property:persist.sys.yogurt.dt2w=1
     exec -- /system/bin/dt2w_event 5
-
-# Bootlogger service, capture logs on device init
-service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
-    class main
-    user root
-    group root system
-    disabled
-    oneshot
-
-service boot_dmesg /system/bin/sh -c "dmesg -w > /cache/boot_dmesg.txt"
-    class main
-    user root
-    group root system
-    disabled
-    oneshot
-
-on property:sys.boot_completed=1
-    stop boot_lc_main
-    stop boot_dmesg
