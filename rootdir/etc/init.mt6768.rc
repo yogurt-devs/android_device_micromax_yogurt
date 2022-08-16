@@ -34,6 +34,7 @@ on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpufreq/policy4/scaling_governor "schedutil"
 
 on fs
+    start adbd
     mount_all /vendor/etc/fstab.mt6768 --early
     mount_all /vendor/etc/fstab.mt6768 --late
     write /proc/sys/vm/swappiness 60
