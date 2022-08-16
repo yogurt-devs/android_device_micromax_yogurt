@@ -37,7 +37,6 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     libaacwrapper
 
 PRODUCT_COPY_FILES += \
