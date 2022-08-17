@@ -117,7 +117,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     android.hardware.audio.effect@5.0-impl \
-    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
