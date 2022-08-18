@@ -28,6 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.odm.stream_bluetooth_sco=15 \
     ro.vendor.mtk.bt_sap_enable=true \
     bluetooth.device.class_of_device=90,2,12 \
+    bluetooth.profile.asha.central=false \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
