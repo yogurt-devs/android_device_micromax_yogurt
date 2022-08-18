@@ -18,6 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.mtk_audio_ape_support=1 \
     ro.vendor.mtk_audio_tuning_tool_ver=V2.2 \
     ro.vendor.mtk_miravision_support=1 \
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.enable_timeout_ms=8000 \
@@ -26,6 +27,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.odm.del_lan_switch_btn=1 \
     ro.odm.stream_bluetooth_sco=15 \
     ro.vendor.mtk.bt_sap_enable=true \
+    bluetooth.device.class_of_device=90,2,12 \
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.CdmaMtSms=I \
