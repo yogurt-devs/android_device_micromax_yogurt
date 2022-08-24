@@ -113,3 +113,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     bluetooth.profile.pan.panu.enabled?=true \
     bluetooth.profile.pbap.server.enabled?=true \
     bluetooth.profile.sap.server.enabled?=true
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.bluetooth.system_audio_hal.enabled=1
