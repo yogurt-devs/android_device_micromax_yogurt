@@ -697,6 +697,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.running_without_sync_framework=true \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+    ro.surface_flinger.uclamp.min=130 \
     debug.sf.early.app.duration=20000000 \
     debug.sf.early.sf.duration=27600000 \
     debug.sf.earlyGl.app.duration=20000000 \
