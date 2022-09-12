@@ -98,4 +98,4 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
     bluetooth.device.class_of_device=90,2,12 \
-    bluetooth.profile.asha.central=false
+    bluetooth.profile.asha.central.enabled=false
