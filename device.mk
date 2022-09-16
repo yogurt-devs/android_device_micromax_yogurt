@@ -295,6 +295,10 @@ PRODUCT_PACKAGES += \
     libkeymaster4 \
     libkeymaster4support
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_beanpod
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \

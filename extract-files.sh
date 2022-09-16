@@ -68,6 +68,9 @@ function blob_fixup {
         vendor/lib/libMtkOmxVdecEx.so)
             patchelf --replace-needed "libui.so" "libui-v32.so" "$2"
             ;;
+        vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod)
+            patchelf --add-needed "libshim_beanpod.so" "${2}"
+            ;;
     esac
 }
 
