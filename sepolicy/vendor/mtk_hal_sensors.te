@@ -1,0 +1,2 @@
+allow mtk_hal_sensors init:unix_stream_socket connectto;
+allow mtk_hal_sensors property_socket:sock_file write;
