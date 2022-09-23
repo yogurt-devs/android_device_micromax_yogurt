@@ -4,7 +4,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     qemu.hw.mainkeys=0 \
     ro.opengles.version=196610 \
     debug.cpurend.vsync=false \
-    ro.surface_flinger.running_without_sync_framework=true
+    ro.surface_flinger.running_without_sync_framework=true \
+    debug.hwui.renderer=skiagl \
+    debug.renderengine.backend=skiaglthreaded \
+    renderthread.skia.reduceopstasksplitting=true
 
 # MTK Performance
 PRODUCT_PRODUCT_PROPERTIES += \
