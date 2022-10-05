@@ -213,6 +213,9 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.power@2.0.vendor \
     vendor.mediatek.hardware.power@2.1.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Biometrics
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.yogurt
