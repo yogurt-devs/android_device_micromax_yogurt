@@ -27,3 +27,8 @@ on property:vendor.mediatek.powerhal.dalvik.vm.dex2oat-threads=*
 on property:vendor.mediatek.powerhal.dalvik.vm.dex2oat-cpu-set=*
     setprop dalvik.vm.dex2oat-cpu-set ${vendor.mediatek.powerhal.dalvik.vm.dex2oat-cpu-set}
     setprop dalvik.vm.restore-dex2oat-cpu-set ${vendor.mediatek.powerhal.dalvik.vm.dex2oat-cpu-set}
+
+on property:sys.boot_completed=1
+    # Initialize powerHAL when boot is completed
+    setprop vendor.mediatek.powerhal.init 1
+    
