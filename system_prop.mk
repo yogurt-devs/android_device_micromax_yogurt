@@ -70,7 +70,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.camera.sound.forced=0 \
     ro.audio.silent=0 \
-    ro.config.vc_call_vol_steps=7
+    ro.config.vc_call_vol_steps=15
 
 # USB
 PRODUCT_PRODUCT_PROPERTIES += \
