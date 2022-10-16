@@ -15,6 +15,7 @@ $(call inherit-product, vendor/micromax/yogurt/yogurt-vendor.mk)
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_USES_QCOM_HARDWARE := false
 
 # Define Dynamic Partition support
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
