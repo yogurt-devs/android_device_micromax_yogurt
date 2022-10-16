@@ -29,7 +29,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    packages/apps/Bluetooth
+    packages/modules/Bluetooth/android/app
 
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
