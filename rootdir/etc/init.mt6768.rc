@@ -24,7 +24,7 @@ on post-fs-data
     setprop ro.control_privapp_permissions log
 
 on property:sys.boot_completed=1
-    write /sys/devices/system/cpu/eas/enable 1
+    write /sys/devices/system/cpu/eas/enable 2
 
     # ZRAM
     swapon_all /vendor/fstab.enableswap
