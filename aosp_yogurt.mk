@@ -24,11 +24,11 @@ $(call inherit-product, device/micromax/yogurt/device.mk)
 # Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit From Lineage Vendor
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit From PixelOS Vendor
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_yogurt
+PRODUCT_NAME := aosp_yogurt
 PRODUCT_DEVICE := yogurt
 PRODUCT_BRAND := Micromax
 PRODUCT_MODEL := Micromax IN Note 1
