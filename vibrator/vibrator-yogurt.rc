@@ -1,0 +1,4 @@
+service vendor.vibrator-yogurt /vendor/bin/hw/android.hardware.vibrator-service.yogurt
+    class hal
+    user system
+    group system
