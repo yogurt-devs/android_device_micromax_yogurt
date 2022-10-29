@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GCamGOPrebuilt
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
