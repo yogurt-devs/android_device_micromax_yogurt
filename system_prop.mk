@@ -96,8 +96,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0
 
-# Zygote preforking
+# Zygote
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    zygote.critical_window.minute=10 \
     persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Bluetooth
