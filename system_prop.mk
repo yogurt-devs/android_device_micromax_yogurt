@@ -16,6 +16,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.mtk_perf_fast_start_win=1 \
     ro.mtk_perf_response_time=1 \
     ro.config.avoid_gfx_accel=true \
+    debug.sf.enable_gl_backpressure=1
 
 # Pre-Rendering
 PRODUCT_PRODUCT_PROPERTIES += \
