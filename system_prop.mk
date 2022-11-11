@@ -7,7 +7,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.running_without_sync_framework=true \
     debug.hwui.renderer=skiagl \
     debug.renderengine.backend=skiaglthreaded \
-    renderthread.skia.reduceopstasksplitting=true
+    renderthread.skia.reduceopstasksplitting=true \
+    debug.sf.disable_client_composition_cache=1 \
 
 # MTK Performance
 PRODUCT_PRODUCT_PROPERTIES += \
