@@ -706,4 +706,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.earlyGl.app.duration=24000000 \
     debug.sf.hwc.min.duration=21000000 \
     debug.sf.use_phase_offsets_as_durations=1 \
-    debug.sf.disable_client_composition_cache=1
+    debug.sf.disable_client_composition_cache=1 \
+    debug.sf.enable_gl_backpressure=1
