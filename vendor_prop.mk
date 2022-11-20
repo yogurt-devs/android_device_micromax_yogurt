@@ -708,3 +708,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.use_phase_offsets_as_durations=1 \
     debug.sf.disable_client_composition_cache=1 \
     debug.sf.enable_gl_backpressure=1
+
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+    zygote.critical_window.minute=10
