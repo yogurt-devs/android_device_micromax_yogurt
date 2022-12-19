@@ -3,3 +3,9 @@ type sysfs_graphics, sysfs_type, fs_type, mlstrustedobject;
 
 # Display node
 type vendor_sysfs_graphics, fs_type, sysfs_type;
+
+# Latency
+type latency_device, dev_type;
+
+# PPS
+type pps_socket, file_type;
