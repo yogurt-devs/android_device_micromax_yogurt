@@ -27,11 +27,17 @@ source "${HELPER}"
 function blob_fixup {
     case "$1" in
         vendor/lib/hw/audio.primary.mt6768.so)
-            "$PATCHELF" --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
-            ;; 
-        vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
-            "${PATCHELF}" --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
+            patchelf --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
             ;;
+        vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
+            patchelf --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
+            ;;
+        vendor/lib64/libarmnn.so)
+            ;&
+        vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-cpunn)
+            ;&
+            patchelf --add-needed libunwindstack.so "${2}"
+
     esac
 }
 

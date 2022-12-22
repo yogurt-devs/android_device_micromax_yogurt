@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
     libhwbinder.vendor \
-    libhidltransport.vendor
+    libhidltransport.vendor \
+    libunwindstack.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
