@@ -23,6 +23,9 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vendor Properties
+-include $(LOCAL_PATH)/vendor_prop.mk
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     factory_init.connectivity.rc \
