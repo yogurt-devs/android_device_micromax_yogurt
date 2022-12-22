@@ -92,7 +92,8 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     libaudiofondation.vendor \
-    libtinycompress
+    libtinycompress \
+    libbtconfigstore
 
 # HIDL
 PRODUCT_PACKAGES += \
