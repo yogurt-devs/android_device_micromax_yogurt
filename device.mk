@@ -73,6 +73,17 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     libvulkan
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.common@1.0.vendor \
+    android.hardware.camera.device@1.0.vendor \
+    android.hardware.camera.device@3.2.vendor \
+    android.hardware.camera.device@3.3.vendor \
+    android.hardware.camera.device@3.4.vendor \
+    android.hardware.camera.device@3.5.vendor \
+    android.hardware.camera.provider@2.4.vendor \
+    android.hardware.camera.provider@2.5.vendor
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
@@ -110,7 +121,9 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libbtconfigstore \
     libalsautils \
-    libnbaio_mono
+    libnbaio_mono \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth.a2dp@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \
@@ -126,7 +139,26 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor \
     libhidltransport.vendor
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0.vendor \
+    android.hardware.drm@1.1.vendor \
+    android.hardware.drm@1.2.vendor \
+    android.hardware.drm@1.3.vendor \
+    android.hardware.drm@1.3-service.clearkey
+
 # WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0.vendor \
+    android.hardware.wifi@1.1.vendor \
+    android.hardware.wifi@1.2.vendor \
+    android.hardware.wifi@1.3.vendor \
+    android.hardware.wifi.supplicant@1.0.vendor \
+    android.hardware.wifi.supplicant@1.1.vendor \
+    android.hardware.wifi.supplicant@1.2.vendor \
+    android.hardware.wifi.hostapd@1.0.vendor \
+    android.hardware.wifi.hostapd@1.1.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
@@ -215,6 +247,11 @@ PRODUCT_PACKAGES += \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
@@ -224,6 +261,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service
+
+# USB
+PRODUCT_PACKAGES += \
+	android.hardware.usb@1.0.vendor \
+	android.hardware.usb@1.1.vendor \
+	android.hardware.usb@1.2.vendor \
+	android.hardware.usb.gadget@1.0.vendor
+
+# Vibrator
+PRODUCT_PACKAGES += \
+	android.hardware.vibrator@1.0-impl \
+	android.hardware.vibrator@1.0-service
 
 # VNDK
 PRODUCT_COPY_FILES += \
