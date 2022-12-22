@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/micromax/yogurt
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := E7746,E6746
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
