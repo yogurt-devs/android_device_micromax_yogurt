@@ -134,7 +134,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
     ro.opengles.version=196610 \
     ro.sf.lcd_density=480 \
-    ro.surface_flinger.primary_display_orientation=0 \
+    ro.surface_flinger.primary_display_orientation=ORIENTATION_0 \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
