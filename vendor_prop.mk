@@ -22,6 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.enable_timeout_ms=8000 \
+    bluetooth.hardware.power.operating_voltage_mv=3300 \
     net.bt.name=Android \
     ro.odm.bluetooth=0 \
     ro.odm.del_lan_switch_btn=1 \
