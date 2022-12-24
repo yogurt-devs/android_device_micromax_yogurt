@@ -21,6 +21,7 @@
 
 #include "MtkPower.h"
 #include "MtkPerf.h"
+#include "Power.h"
 
 using android::OK;
 using android::sp;
@@ -30,15 +31,18 @@ using android::hardware::joinRpcThreadpool;
 
 using vendor::mediatek::hardware::mtkpower::V1_2::IMtkPower;
 using vendor::mediatek::hardware::mtkpower::V1_2::IMtkPerf;
+using vendor::mediatek::hardware::power::V2_1::IPower;
 
 using vendor::mediatek::hardware::mtkpower::implementation::MtkPower;
 using vendor::mediatek::hardware::mtkpower::implementation::MtkPerf;
+using vendor::mediatek::hardware::power::implementation::Power;
 
 int main() {
     configureRpcThreadpool(1, true /*callerWillJoin*/);
 
     sp<IMtkPower> mtkPower = new MtkPower();
     sp<IMtkPerf> mtkPerf = new MtkPerf();
+    sp<IPower> power = new Power();
 
     if (mtkPower->registerAsService() != android::OK) {
         LOG(ERROR) << "Can't register MtkPower Stub HAL service";
@@ -48,6 +52,12 @@ int main() {
     if (mtkPerf->registerAsService() != android::OK) {
         LOG(ERROR) << "Can't register MtkPerf Stub HAL service";
         return 1;
+    }
+
+    if (power->registerAsService() != android::OK) {
+        // This service is optional so we'll just continue if it
+        // can't be registered.
+        LOG(WARNING) << "Can't register Power Stub HAL service";
     }
 
     joinRpcThreadpool();

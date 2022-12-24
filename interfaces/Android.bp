@@ -6,3 +6,8 @@ hidl_package_root {
     name: "vendor.mediatek.hardware.mtkpower",
     path: "device/micromax/yogurt/interfaces/mtkpower",
 }
+
+hidl_package_root {
+    name: "vendor.mediatek.hardware.power",
+    path: "device/micromax/yogurt/interfaces/power",
+}
