@@ -455,7 +455,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_client_composition_cache=1 \
     debug.sf.enable_gl_backpressure=1 \
     debug.sf.predict_hwc_composition_strategy=0 \
-    debug.sf.enable_transaction_tracing=false
+    debug.sf.enable_transaction_tracing=false \
+    debug.hwui.skia_atrace_enabled=false \
 
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
