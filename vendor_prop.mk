@@ -613,6 +613,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.mtk_perf_response_time=1 \
     ro.mtk_perf_simple_start_win=1 \
     security.perf_harden=1 \
+    ro.config.avoid_gfx_accel=true \
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.C2K_RIL-DATA=I \
