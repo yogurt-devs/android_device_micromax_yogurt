@@ -33,3 +33,8 @@ sys.ipo.pwrdncap=2
 wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
+
+# Camera
+persist.vendor.camera.privapp.list=com.android.camera,com.google.camera,org.lineageos.aperture
+vendor.camera.aux.packagelist=com.android.camera,com.google.camera,net.sourceforge.opencamera,org.lineageos.aperture
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
