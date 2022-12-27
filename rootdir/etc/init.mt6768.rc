@@ -1,7 +1,7 @@
 # MTK platform .rc configure
 
-import vendor/etc/init/hw/init.connectivity.rc
-import vendor/etc/init/hw/init.mt6768.usb.rc
+import /vendor/etc/init/hw/init.connectivity.rc
+import /vendor/etc/init/hw/init.mt6768.usb.rc
 import /vendor/etc/init/hw/init.project.rc
 import /system/etc/init/hw/init.aee.rc
 import /FWUpgradeInit.rc
@@ -56,7 +56,7 @@ on late-init
 # mount different fs start
 
 on charger
-    exec /system/bin/e2fsck -f -p /dev/block/platform/bootdevice/by-name/cache
+    exec /bin/e2fsck -f -p /dev/block/platform/bootdevice/by-name/cache
     mount ext4 /dev/block/platform/bootdevice/by-name/cache /cache rw wait
     chmod 0660 /dev/spm
     chown system system /dev/spm
@@ -88,10 +88,7 @@ on charger
     chown system system /sys/class/leds/red/brightness
     chown system system /sys/class/leds/green/brightness
 
-    start servicemanager
-    start hwservicemanager
-    start light-hal-2-0
-    start health-hal-2-0
+    start vendor.light-default
 
 on fs
     write /proc/bootprof "INIT:Mount_START"
