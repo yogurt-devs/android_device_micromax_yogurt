@@ -35,6 +35,9 @@ function blob_fixup {
         vendor/bin/hw/android.hardware.audio@5.0-service-mediatek)
             patchelf --replace-needed "libutils.so" "libutils-v30.so" "${2}"
             ;;
+        vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so)
+            patchelf --replace-needed "android.hardware.audio.common@5.0-util.so" "android.hardware.audio.common@5.0-util-v29.so" "${2}"
+            ;;
         vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
             patchelf --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
             ;;
