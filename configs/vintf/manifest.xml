@@ -595,7 +595,4 @@
         </interface>
         <fqname>@1.0::ITFaceDevice/default</fqname>
     </hal>
-    <sepolicy>
-        <version>29.0</version>
-    </sepolicy>
 </manifest>
