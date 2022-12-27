@@ -27,6 +27,9 @@ source "${HELPER}"
 function blob_fixup {
     case "$1" in
         vendor/lib/hw/audio.primary.mt6768.so)
+        ;&
+        vendor/lib64/hw/audio.primary.mt6768.so)
+            patchelf --replace-needed "libxml2.so" "libxml2-v29.so" "${2}"
             patchelf --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
             ;;
         vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
