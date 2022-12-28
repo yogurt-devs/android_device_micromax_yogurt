@@ -109,6 +109,16 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.1.vendor \
     android.hardware.radio.config@1.2.vendor
 
+# Telephony Jars
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
+
 # TinyXML
 PRODUCT_PACKAGES += \
     libtinyxml
