@@ -189,7 +189,9 @@ PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0.vendor \
     libhwbinder.vendor \
     libhidltransport.vendor \
-    libunwindstack.vendor
+    libunwindstack.vendor \
+    libhidltransport \
+    libhwbinder
 
 # Lights
 PRODUCT_PACKAGES += \
