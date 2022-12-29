@@ -30,6 +30,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Vendor Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     factory_init.connectivity.rc \
