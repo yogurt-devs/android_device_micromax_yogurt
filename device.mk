@@ -81,7 +81,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.common@1.2 \
-    android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     libvulkan
@@ -155,9 +154,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
-    libaudiofondation.vendor \
     libtinycompress \
-    libbtconfigstore \
     libalsautils \
     libnbaio_mono \
     android.hardware.bluetooth@1.0.vendor \
@@ -203,8 +200,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0.vendor \
     android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.2.vendor \
-    android.hardware.drm@1.3.vendor \
-    android.hardware.drm@1.3-service.clearkey
+    android.hardware.drm@1.3.vendor
 
 # WiFi
 PRODUCT_PACKAGES += \
