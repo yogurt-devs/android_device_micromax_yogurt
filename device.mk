@@ -35,6 +35,10 @@ PRODUCT_SOONG_NAMESPACES += \
 include $(LOCAL_PATH)/vendor_logtag.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     factory_init.connectivity.rc \
