@@ -255,9 +255,6 @@ vendor/lib64/libarcsoft_picselfie_algorithm.so
 # Camera-bin
 vendor/bin/hw/camerahalserver
 
-# Charger - From From Redmi/begonia/begonia:11/RP1A.200720.011/21.4.28:user/release-keys
-bin/charger:bin/chargeonlymode|bb74c36cee72b1f2e2c8090eb6f21352eba8e83f
-
 # MTK-IMS
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar

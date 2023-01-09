@@ -942,8 +942,9 @@ on property:vendor.mtk.md1.status=reset
 on boot
     insmod /vendor/lib/modules/fpsgo.ko
 
+on charger
 # Charger
-service charger /bin/chargeonlymode
+service charger /system/bin/charger
     class charger
     user system
     group system graphics input
