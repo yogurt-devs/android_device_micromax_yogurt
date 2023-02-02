@@ -458,6 +458,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_transaction_tracing=false \
     debug.hwui.skia_atrace_enabled=false \
     debug.sf.enable_egl_image_tracker=1 \
+    debug.renderengine.backend=skiagl
 
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
