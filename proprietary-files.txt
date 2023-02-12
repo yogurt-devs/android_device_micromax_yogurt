@@ -738,12 +738,6 @@ vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
 
 # Misc
--vendor/app/EmCamera/EmCamera.apk
-vendor/app/EmCamera/lib/arm64/libem_camera_jni.so
--vendor/app/HorCali/HorCali.apk
-vendor/app/HorCali/lib/arm64/libprizeem_sensor_jni.so
-vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so
--vendor/app/SensorHub/SensorHub.apk
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
@@ -1381,13 +1375,6 @@ vendor/lib64/s5kgm1st_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgm1st_mipi_raw_tuning.so
 vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
 vendor/lib64/vendor.microtrust.hardware.tface@1.0.so
-vendor/res/images/lcd_test_00.png
-vendor/res/images/lcd_test_01.png
-vendor/res/images/lcd_test_02.png
-vendor/res/sound/ringtone.wav
-vendor/res/sound/testpattern1.wav
-vendor/ro.prop
-vendor/rw.prop
 vendor/thh/ta/04190000000000000000000000000000.ta
 vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
 vendor/thh/ta/b09c9c5daa504b78b0e46eda61556c3a.ta
