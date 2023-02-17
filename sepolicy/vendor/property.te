@@ -1,2 +1,5 @@
 # RILD
 type imsi_prop, property_type;
+
+# Mediacodec
+type dalvik_vm_config_prop, property_type;
