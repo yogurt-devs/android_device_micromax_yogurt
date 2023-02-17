@@ -1,1 +1,4 @@
 allow vtservice mediavts_service:service_manager { add };
+
+# Allow vtservice to read props
+get_prop(vtservice, vendor_mtk_radio_prop)
