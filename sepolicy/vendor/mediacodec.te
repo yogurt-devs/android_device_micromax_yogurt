@@ -1,2 +1,5 @@
+# Allow mediacodec to set dalvik_vm_config_prop
+set_prop(mediacodec, dalvik_vm_config_prop)
+
 allow mediacodec sysfs_bus:dir search;
 allow mediacodec sysfs_emi_ctrl:dir search;

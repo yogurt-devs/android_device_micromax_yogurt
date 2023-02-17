@@ -2,5 +2,8 @@
 persist.vendor.camera.privapp.list    u:object_r:exported_default_prop:s0
 
 # RILD
-ro.telephony.default_network u:object_r:radio_prop:s0
-persist.ss.imsi.info         u:object_r:imsi_prop:s0
+ro.telephony.default_network          u:object_r:radio_prop:s0
+persist.ss.imsi.info                  u:object_r:imsi_prop:s0
+
+# Mediacodec
+dalvik.vm.dex2oat-threads             u:object_r:dalvik_vm_config_prop:s0
