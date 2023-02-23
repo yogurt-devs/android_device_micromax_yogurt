@@ -28,9 +28,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Vendor Properties
--include $(LOCAL_PATH)/vendor_prop.mk
-
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
