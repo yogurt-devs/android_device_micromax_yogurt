@@ -1,3 +1,5 @@
+# Device proprietary files - from full_k69v1_64-user 10 QP1A.190711.020 1620836268 release-keys, unless pinned
+
 # Audio
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocompensationfilter_vendor.so
