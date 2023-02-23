@@ -44,8 +44,7 @@ function blob_fixup {
         vendor/lib64/libarmnn.so)
             ;&
         vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-cpunn)
-            ;&
-            patchelf --add-needed libunwindstack.so "${2}"
+            patchelf --add-needed "libunwindstack.so" "${2}"
             ;;
         vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
             ;&
