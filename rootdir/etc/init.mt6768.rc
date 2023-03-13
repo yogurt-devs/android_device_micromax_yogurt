@@ -44,6 +44,11 @@ on init
     write /dev/stune/top-app/schedtune.boost 1
     write /dev/cpuset/top-app/cpus 0-7
 
+    # Logger
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
 on late-init
     write /proc/bootprof "INIT:late-init"
 # enable rcu_expedited
@@ -159,6 +164,11 @@ on post-fs
     symlink /dev/block/sdb /dev/block/mmcblk0boot1
     symlink /dev/block/mmcblk0boot0 /dev/block/platform/bootdevice/by-name/preloader_a
     symlink /dev/block/mmcblk0boot1 /dev/block/platform/bootdevice/by-name/preloader_b
+
+    # Logger
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
 
 on post-fs-data
     write /proc/bootprof "INIT:post-fs-data"
@@ -640,6 +650,11 @@ on post-fs-data
 # End of adding by MTK drivers
 # -----------------------
 
+    # Logger
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
 on boot
     write /proc/bootprof "INIT:boot"
 
@@ -954,3 +969,36 @@ service charger /system/bin/charger
 # Disable AOSP RIL if MTK RIL is up
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
+
+# Logger
+service boot_log /system/bin/logcat -b all -D -f /cache/boot_log_full.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service boot_log_crash /system/bin/logcat -b crash -D -f /cache/boot_log_crash.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service boot_log_kernel /system/bin/logcat -b kernel -D -f /cache/boot_log_kernel.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+on early-boot
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
+on property:sys.boot_completed=1
+# Stop the logger service
+    stop boot_log
+    stop boot_log_crash
+    stop boot_log_kernel
