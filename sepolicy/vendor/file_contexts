@@ -8,4 +8,4 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service\.mediatek                     u:object_r:hal_sensors_default_exec:s0
 
 # Light
-/vendor/bin/hw/android\.hardware\.light@2\.0-service\.RMX2020      u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.yogurt                                                 u:object_r:hal_light_default_exec:s0
