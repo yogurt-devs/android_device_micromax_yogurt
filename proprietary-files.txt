@@ -750,8 +750,6 @@ vendor/bin/fuelgauged_nvram
 vendor/bin/getconf
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
-vendor/bin/hw/power_legacy_test_v_1_0
-vendor/bin/hw/power_native_test_v_1_0
 vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
 vendor/bin/hw/vendor.microtrust.hardware.tface@1.0-service
 vendor/bin/hw/vtservice_hidl
