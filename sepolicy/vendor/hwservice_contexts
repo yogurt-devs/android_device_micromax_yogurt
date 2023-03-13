@@ -1,2 +1,5 @@
 # Mediatek
 vendor.mediatek.hardware.wifi.hostapd::IHostapd u:object_r:hal_mtk_hostapd_hwservice:s0
+
+# Fingerprint
+vendor.focaltech.fingerprint::IFocalFingerprintService                        u:object_r:hal_fingerprint_hwservice:s0
