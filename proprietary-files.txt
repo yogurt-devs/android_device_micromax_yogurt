@@ -1,5 +1,13 @@
 # Device proprietary files - from full_k69v1_64-user 10 QP1A.190711.020 1620836268 release-keys, unless pinned
 
+# AEE - from OMIX_X600_A12
+vendor/lib/libaedv.so|3b93f72ef0f78cf7224f01bfd27b51e651346661
+vendor/lib/libladder.so|e566b0a7c26c9fba19f637de069dadf0631de6f2
+vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
+vendor/lib64/libaedv.so|fee02aec424ebd79a82d646a0087aac0e85508fe
+vendor/lib64/libladder.so|892d3a6753db4bb44d5a662d0994e3b3c7ab267e
+vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
+
 # Audio
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocompensationfilter_vendor.so
@@ -1077,7 +1085,6 @@ vendor/lib/libaalservice.so
 vendor/lib/libaal_cust.so
 vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
-vendor/lib/libaedv.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
@@ -1120,7 +1127,6 @@ vendor/lib/libipsec_ims_shr.so
 vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
 vendor/lib/libJpgEncPipe.so
-vendor/lib/libladder.so
 vendor/lib/libminiui.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmnetlink_v104.so
@@ -1185,7 +1191,6 @@ vendor/lib/libtface.so
 vendor/lib/libtflite_mtk.so
 vendor/lib/libtflite_mtk_static.so
 vendor/lib/libthha.so
-vendor/lib/libudf.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib/libutinterface_md.so
 vendor/lib/libvc1dec_sa.ca7.so
@@ -1244,7 +1249,6 @@ vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libacdk.so
-vendor/lib64/libaedv.so
 vendor/lib64/libarmnn.so
 vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
@@ -1304,7 +1308,6 @@ vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/libksensor.so
-vendor/lib64/libladder.so
 vendor/lib64/liblpcnr.so
 vendor/lib64/libmfllcore.so
 vendor/lib64/libminiui.so
@@ -1347,7 +1350,6 @@ vendor/lib64/libtface.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libtflite_mtk_static.so
 vendor/lib64/libthha.so
-vendor/lib64/libudf.so
 vendor/lib64/libutinterface_custom_md.so
 vendor/lib64/libutinterface_md.so
 vendor/lib64/libuvcamfilter.so
