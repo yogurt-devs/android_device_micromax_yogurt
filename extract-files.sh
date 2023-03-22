@@ -29,14 +29,7 @@ function blob_fixup {
         vendor/lib/hw/audio.primary.mt6768.so)
             ;&
         vendor/lib64/hw/audio.primary.mt6768.so)
-            patchelf --replace-needed "libxml2.so" "libxml2-v29.so" "${2}"
-            patchelf --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
-            ;;
-        vendor/bin/hw/android.hardware.audio@5.0-service-mediatek)
-            patchelf --replace-needed "libutils.so" "libutils-v30.so" "${2}"
-            ;;
-        vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so)
-            patchelf --replace-needed "android.hardware.audio.common@5.0-util.so" "android.hardware.audio.common@5.0-util-v29.so" "${2}"
+            patchelf --replace-needed "libmedia_helper.so" "libmedia_helper-v30.so" "${2}"
             ;;
         vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
             patchelf --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
