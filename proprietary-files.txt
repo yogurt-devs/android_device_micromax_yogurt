@@ -262,13 +262,6 @@ vendor/lib64/libarcsoft_picselfie_algorithm.so
 vendor/bin/hw/camerahalserver
 
 # MTK-IMS
--framework/mediatek-common.jar
--framework/mediatek-framework.jar
--framework/mediatek-ims-base.jar
--framework/mediatek-ims-common.jar
--framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
--framework/mediatek-telephony-common.jar
 -priv-app/ImsService/ImsService.apk
 bin/vtservice
 etc/init/init.vtservice.rc
@@ -303,6 +296,15 @@ lib64/libmtkshifter.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# MTK-IMS (Jars) - from E7446_A11
+-framework/mediatek-common.jar|a3531483206741e2a8d7a2756c65224e3b1aa517 
+-framework/mediatek-framework.jar|6be40b2ff4351e4479295792ee3604872705eab5
+-framework/mediatek-ims-base.jar|22dc30d9f89f394e52e09477d6be2efa6d016801
+-framework/mediatek-ims-common.jar|850c06257a81d93e952deaf449440407be35bc1d
+-framework/mediatek-telecom-common.jar|51b61cdddcd79bb3e4b83dbab53dae4b6b7e1ba2
+-framework/mediatek-telephony-base.jar|89fd720d000c65cd1c673664df1959544c61e736
+-framework/mediatek-telephony-common.jar|9d57c037e05b081e68438eed3eee64b08f54bf6c
 
 # DRM
 
