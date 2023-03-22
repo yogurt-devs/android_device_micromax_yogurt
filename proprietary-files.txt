@@ -34,7 +34,7 @@ vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
 vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
 vendor/lib/android.hardware.audio.common-util.so
-vendor/lib/android.hardware.audio.common@5.0-util.so
+vendor/lib/android.hardware.audio.common@5.0-util.so:vendor/lib/android.hardware.audio.common@5.0-util-v29.so
 vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
 vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.default.so
@@ -46,7 +46,7 @@ vendor/lib/hw/audio.usb.mt6768.so
 vendor/lib/hw/audio_policy.stub.so
 vendor/lib/vendor.mediatek.hardware.audio@5.1.so
 vendor/lib64/android.hardware.audio.common-util.so
-vendor/lib64/android.hardware.audio.common@5.0-util.so
+vendor/lib64/android.hardware.audio.common@5.0-util.so:vendor/lib64/android.hardware.audio.common@5.0-util-v29.so
 vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
 vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so
 vendor/lib64/hw/audio.primary.default.so
