@@ -278,11 +278,6 @@ etc/init/init.vtservice.rc
 etc/permissions/privapp-permissions-mediatek.xml
 framework/mediatek-ims-extension-plugin.jar
 framework/mediatek-ims-legacy.jar
-lib/libcomutils.so
-lib/libimsma.so
-lib/libimsma_adapt.so
-lib/libimsma_rtp.so
-lib/libimsma_socketwrapper.so
 lib/libmtk_vt_service.so
 lib/libmtk_vt_wrapper.so
 lib/libmtkaudio_utils.so
@@ -290,13 +285,9 @@ lib/libmtkavenhancements.so
 lib/libmtklimiter.so
 lib/libmtkperf_client.so
 lib/libmtkshifter.so
-lib/libsignal.so
-lib/libsink.so
-lib/libsource.so
 lib/libvcodec_cap.so
 lib/libvcodec_capenc.so
 lib/libvt_avsync.so
-lib/vendor.mediatek.hardware.videotelephony@1.0.so
 lib64/libmtk_vt_wrapper.so
 lib64/libmtkaudio_utils.so
 lib64/libmtkavenhancements.so
@@ -305,7 +296,6 @@ lib64/libmtkperf_client.so
 lib64/libmtkshifter.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
-lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # MTK-IMS (Jars) - from E7446_A11
 -framework/mediatek-common.jar|a3531483206741e2a8d7a2756c65224e3b1aa517 
@@ -315,6 +305,18 @@ lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 -framework/mediatek-telecom-common.jar|51b61cdddcd79bb3e4b83dbab53dae4b6b7e1ba2
 -framework/mediatek-telephony-base.jar|89fd720d000c65cd1c673664df1959544c61e736
 -framework/mediatek-telephony-common.jar|9d57c037e05b081e68438eed3eee64b08f54bf6c
+
+# IMS - from OMIX_X300_A11
+lib/libcomutils.so
+lib/libimsma.so
+lib/libimsma_adapt.so
+lib/libimsma_rtp.so
+lib/libimsma_socketwrapper.so
+lib/libsignal.so
+lib/libsink.so
+lib/libsource.so
+lib/vendor.mediatek.hardware.videotelephony@1.0.so:system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # DRM
 
