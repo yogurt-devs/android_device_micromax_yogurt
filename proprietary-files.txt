@@ -731,8 +731,6 @@ vendor/bin/nvram_daemon
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
-vendor/etc/fstab.enableswap
-vendor/etc/fstab.mt6768
 vendor/etc/init/microtrust.rc
 vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
