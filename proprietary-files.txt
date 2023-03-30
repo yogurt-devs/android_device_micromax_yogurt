@@ -272,7 +272,7 @@ vendor/lib64/libarcsoft_picselfie_algorithm.so
 vendor/bin/hw/camerahalserver
 
 # MTK-IMS
--priv-app/ImsService/ImsService.apk
+-priv-app/ImsService/ImsService.apk|ab9dccb0f98e5b9a0f5dc022d423bf7efed884be
 bin/vtservice
 etc/init/init.vtservice.rc
 etc/permissions/privapp-permissions-mediatek.xml
