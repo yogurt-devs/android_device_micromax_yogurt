@@ -14,7 +14,7 @@ using ::android::hardware::Return;
 using ::android::hardware::Void;
 using ::android::sp;
 
-struct Power : public V2_1::IPower {
+struct Power : public V2_0::IPower {
     // Methods from ::android::hardware::power::V1_0::IPower follow.
     Return<void> setInteractive(bool interactive) override;
     Return<void> powerHint(::android::hardware::power::V1_0::PowerHint hint, int32_t data) override;
@@ -39,11 +39,6 @@ struct Power : public V2_1::IPower {
     Return<void> scnEnable(int32_t hdl, int32_t timeout) override;
     Return<void> scnDisable(int32_t hdl) override;
     Return<void> scnUltraCfg(int32_t hdl, int32_t ultracmd, int32_t param1, int32_t param2, int32_t param3, int32_t param4) override;
-
-    // Methods from ::vendor::mediatek::hardware::power::V2_1::IPower follow.
-    Return<void> notifyAppState_2_1(const hidl_string& packName, const hidl_string& actName, int32_t pid, ::vendor::mediatek::hardware::power::V2_0::MtkActState state, int32_t uid) override;
-    Return<void> scnConfig_2_1(int32_t hdl, ::vendor::mediatek::hardware::power::V2_1::MtkPowerCmd cmd, int32_t param1, int32_t param2, int32_t param3, int32_t param4) override;
-    Return<void> setSysInfo(int32_t type, const hidl_string& data) override;
 
     // Methods from ::android::hidl::base::V1_0::IBase follow.
 

@@ -83,18 +83,4 @@ Return<void> Power::scnUltraCfg(int32_t /* hdl */, int32_t /* ultracmd */, int32
     return Void();
 }
 
-
-// Methods from ::vendor::mediatek::hardware::power::V2_1::IPower follow.
-Return<void> Power::notifyAppState_2_1(const hidl_string& /* packName */, const hidl_string& /* actName */, int32_t /* pid */, ::vendor::mediatek::hardware::power::V2_0::MtkActState /* state */, int32_t /* uid */) {
-    return Void();
-}
-
-Return<void> Power::scnConfig_2_1(int32_t /* hdl */, ::vendor::mediatek::hardware::power::V2_1::MtkPowerCmd /* cmd */, int32_t /* param1 */, int32_t /* param2 */, int32_t /* param3 */, int32_t /* param4 */) {
-    return Void();
-}
-
-Return<void> Power::setSysInfo(int32_t /* type */, const hidl_string& /* data */) {
-    return Void();
-}
-
 }  // namespace vendor::mediatek::hardware::power::implementation

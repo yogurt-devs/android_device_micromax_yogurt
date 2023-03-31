@@ -31,7 +31,7 @@ using android::hardware::joinRpcThreadpool;
 
 using vendor::mediatek::hardware::mtkpower::V1_2::IMtkPower;
 using vendor::mediatek::hardware::mtkpower::V1_2::IMtkPerf;
-using vendor::mediatek::hardware::power::V2_1::IPower;
+using vendor::mediatek::hardware::power::V2_0::IPower;
 
 using vendor::mediatek::hardware::mtkpower::implementation::MtkPower;
 using vendor::mediatek::hardware::mtkpower::implementation::MtkPerf;
