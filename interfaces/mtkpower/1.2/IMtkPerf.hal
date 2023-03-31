@@ -1,0 +1,7 @@
+package vendor.mediatek.hardware.mtkpower@1.2;
+
+import @1.1::IMtkPerf;
+
+interface IMtkPerf extends @1.1::IMtkPerf {
+    perfLockReleaseSync(int32_t pl_handle, int32_t reserved) generates (int32_t ret);
+};

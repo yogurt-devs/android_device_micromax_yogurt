@@ -206,7 +206,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.mediatek-libperfmgr \
     libmtkperf_client_vendor \
     libmtkperf_client \
-    android.hardware.power@1.3.vendor
+    android.hardware.power@1.3.vendor \
+    vendor.mediatek.hardware.mtkpower@1.0.vendor \
+    vendor.mediatek.hardware.mtkpower@1.2-service.stub
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \

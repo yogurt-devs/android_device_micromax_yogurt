@@ -1,0 +1,7 @@
+package vendor.mediatek.hardware.mtkpower@1.2;
+
+import @1.1::IMtkPowerCallback;
+
+interface IMtkPowerCallback extends @1.1::IMtkPowerCallback {
+    oneway notifyScnUpdate(int32_t hint, int32_t data);
+};
