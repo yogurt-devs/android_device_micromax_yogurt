@@ -448,6 +448,7 @@ debug.sf.enable_transaction_tracing=false
 debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_egl_image_tracker=1
 debug.renderengine.backend=skiagl
+debug.sf.treat_170m_as_sRGB=1
 
 # Zygote
 zygote.critical_window.minute=10
