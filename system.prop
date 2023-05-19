@@ -64,3 +64,5 @@ ro.audio.silent=0
 Build.BRAND=MTK
 net.bt.name=Android
 
+# Disable servicetracker
+sys.vendor.qti.servicetracker.disable=true
