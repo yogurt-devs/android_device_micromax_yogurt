@@ -42,6 +42,9 @@ persist.sys.front_camera_sound_type=1
 persist.vendor.camera.privapp.list=com.android.camera,com.google.camera,org.lineageos.aperture
 vendor.camera.aux.packagelist=com.android.camera,com.google.camera,net.sourceforge.opencamera,org.lineageos.aperture
 
+# Display 
+persist.sys.brightness.low.gamma=true
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
