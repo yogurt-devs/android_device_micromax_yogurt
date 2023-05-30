@@ -126,6 +126,7 @@ ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
+debug.stagefright.ccodec=0
 mediatek.wlan.ctia=0
 persist.vendor.radio.msimmode=dsds
 ro.mediatek.wlan.p2p=1
