@@ -82,6 +82,11 @@ function blob_fixup {
         lib/libmtk_vt_service.so)
 	    patchelf --add-needed "libshim_vtservice.so" "${2}"
 	    ;;
+	vendor/lib64/libmtkcam_featurepolicy.so)
+            # evaluateCaptureConfiguration()
+            xxd -p "${2}" | sed 's/28028052/e87740b9/' | xxd -r -p > "${2}".patched
+            mv "${2}".patched "${2}"
+            ;;
     esac
 }
 

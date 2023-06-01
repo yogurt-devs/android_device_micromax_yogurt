@@ -571,7 +571,7 @@ vendor/lib64/libmtkcam_device3_app.so
 vendor/lib64/libmtkcam_dpe.so
 vendor/lib64/libmtkcam_exif.so
 vendor/lib64/libmtkcam_fdvt.so
-vendor/lib64/libmtkcam_featurepolicy.so
+vendor/lib64/libmtkcam_featurepolicy.so|b62c3868bfaa8d5177e85e800fc3ad634f02f5c2
 vendor/lib64/libmtkcam_fwkutils.so
 vendor/lib64/libmtkcam_grallocutils.so
 vendor/lib64/libmtkcam_hwnode.so
