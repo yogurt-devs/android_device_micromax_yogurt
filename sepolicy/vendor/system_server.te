@@ -1,2 +1,0 @@
-get_prop(system_server, debug_mtk_gpud_prop)
-binder_call(system_server, init)

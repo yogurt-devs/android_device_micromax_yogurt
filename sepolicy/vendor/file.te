@@ -1,5 +1,3 @@
 type sysfs_light, fs_type, sysfs_type, mlstrustedobject;
 type sysfs_graphics, sysfs_type, fs_type, mlstrustedobject;
-
-# Display node
-type vendor_sysfs_graphics, fs_type, sysfs_type;
+type proc_vm, fs_type, proc_type;

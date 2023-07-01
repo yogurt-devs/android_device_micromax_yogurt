@@ -1,3 +1,1 @@
-get_prop(rild, imsi_prop)
-set_prop(rild, imsi_prop)
-get_prop(rild, mtk_md_version_prop)
+get_prop(rild, vendor_mtk_simswitch_emmode_prop)
