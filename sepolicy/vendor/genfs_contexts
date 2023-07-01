@@ -1,0 +1,3 @@
+# VM
+genfscon proc /sys/vm/direct_swappiness                               u:object_r:proc_vm:s0
+genfscon proc /sys/vm/dirty_background_bytes                          u:object_r:proc_vm:s0
