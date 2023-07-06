@@ -765,7 +765,6 @@ vendor/bin/getconf
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
-vendor/bin/hw/vendor.microtrust.hardware.tface@1.0-service
 vendor/bin/hw/vtservice_hidl
 vendor/bin/i2cdetect
 vendor/bin/i2cdump
@@ -876,7 +875,6 @@ vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/pri_misc.rc
-vendor/etc/init/vendor.microtrust.hardware.tface@1.0-service.rc
 vendor/etc/init/vpud.rc
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/ipsec/ipsec.conf
@@ -1184,7 +1182,6 @@ vendor/lib/libstorage_otp.so
 vendor/lib/libstrongswan.so
 vendor/lib/libsysenv.so
 vendor/lib/libTEECommon.so
-vendor/lib/libtface.so
 vendor/lib/libtflite_mtk.so
 vendor/lib/libtflite_mtk_static.so
 vendor/lib/libthha.so
@@ -1212,7 +1209,6 @@ vendor/lib/ov16a10_mipi_raw_tuning.so
 vendor/lib/ov16a1q_mipi_raw_tuning.so
 vendor/lib/s5kgm1st_mipi_raw_tuning.so
 vendor/lib/vendor.microtrust.hardware.capi@2.0.so
-vendor/lib/vendor.microtrust.hardware.tface@1.0.so
 vendor/lib64/bf2253Lmacro_mipi_raw_IdxMgr.so
 vendor/lib64/bf2253Lmacro_mipi_raw_tuning.so
 vendor/lib64/bf2253L_mipi_raw_IdxMgr.so
@@ -1340,7 +1336,6 @@ vendor/lib64/libstrongswan.so
 vendor/lib64/libsysenv.so
 vendor/lib64/libTEECommon.so
 vendor/lib64/libtensorflowlite.so
-vendor/lib64/libtface.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libtflite_mtk_static.so
 vendor/lib64/libthha.so
@@ -1364,7 +1359,6 @@ vendor/lib64/ov16a1q_mipi_raw_tuning.so
 vendor/lib64/s5kgm1st_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgm1st_mipi_raw_tuning.so
 vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
-vendor/lib64/vendor.microtrust.hardware.tface@1.0.so
 vendor/thh/ta/04190000000000000000000000000000.ta
 vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
 vendor/thh/ta/b09c9c5daa504b78b0e46eda61556c3a.ta
