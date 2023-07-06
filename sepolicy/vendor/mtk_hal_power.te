@@ -1,0 +1,2 @@
+allow mtk_hal_power debugfs_fpsgo:dir search;
+allow mtk_hal_power debugfs_fpsgo:file getattr;
