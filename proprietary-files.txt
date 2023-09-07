@@ -300,21 +300,16 @@ lib/libsource.so
 lib/vendor.mediatek.hardware.videotelephony@1.0.so:system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
-# DRM
+# DRM (Hardware) - OMIX/X600_NFC/X600_NFC:12/SP1A.210812.016/1658802762:user/release-keys
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine|8307cea32c20bdc6e7456a6060ebefcfe743b02c
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
 
-# DRM-Hardware
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
-
-# DRM-Widevine
-vendor/lib/libwvhidl.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
-vendor/lib/mediadrm/libmockdrmcryptoplugin.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so
-vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
-vendor/lib64/mediadrm/libwvdrmengine.so
+# DRM (Widevine) - from OMIX/X600_NFC/X600_NFC:12/SP1A.210812.016/1658802762:user/release-keys
+vendor/lib/libwvhidl.so|0b823f9347bac0b4b0c3636b328a010cb1930d29
+vendor/lib/mediadrm/libwvdrmengine.so|ef968cd0f6bcb079c4a2802a31d9af6d605dd70d
+vendor/lib64/libwvhidl.so|00a180a3fed41b35d3102ddbdc9a1a986886860a
+vendor/lib64/mediadrm/libwvdrmengine.so|4eea74c78d16eceb3470f6bb4f4f0340697aa4ae
 
 # Display-Hardware
 vendor/bin/hw/android.hardware.memtrack@1.0-service
