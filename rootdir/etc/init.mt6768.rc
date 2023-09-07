@@ -339,6 +339,8 @@ on post-fs-data
 
     #Fingerprint
     chmod 0666 /dev/goodix_fp
+    mkdir /data/vendor/focaltech 0760 system system
+    restorecon /data/vendor/focaltech
 
     #VideoCodec
     chmod 0660 /dev/vcu
@@ -835,6 +837,10 @@ on boot
     chown system radio /dev/ttyGS1
 
     stop console
+
+# Fingerprint
+    chown system system /dev/focaltech_fp
+    chmod 0660 /dev/focaltech_fp
 
 # Set enableflags for boot Systrace
 on early-init && property:ro.boot.boot_trace=1
