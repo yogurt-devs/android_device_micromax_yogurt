@@ -92,6 +92,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_camera_metadata
 
+PRODUCT_PACKAGES += \
+    Aperture
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
