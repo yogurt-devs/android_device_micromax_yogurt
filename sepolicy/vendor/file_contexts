@@ -3,6 +3,7 @@
 
 # Fingerprint
 /dev/focaltech_fp                                                                          u:object_r:fp_device:s0
+/data/vendor/focaltech(/.*)?                                                               u:object_r:vendor_data_file:s0
 
 # Light
 /vendor/bin/hw/android\.hardware\.light-service\.yogurt                                    u:object_r:hal_light_default_exec:s0
