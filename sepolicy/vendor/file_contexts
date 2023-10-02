@@ -1,5 +1,5 @@
 # Biometrics
-/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.yogurt             u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service             u:object_r:hal_fingerprint_default_exec:s0
 
 # Fingerprint
 /dev/focaltech_fp                                                                          u:object_r:fp_device:s0
