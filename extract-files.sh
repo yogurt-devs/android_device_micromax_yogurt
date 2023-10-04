@@ -77,6 +77,12 @@ function blob_fixup {
             xxd -p "${2}" | sed 's/28028052/e87740b9/' | xxd -r -p > "${2}".patched
             mv "${2}".patched "${2}"
             ;;
+        vendor/lib64/libwvhidl.so)
+            patchelf --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
+        vendor/lib64/mediadrm/libwvdrmengine.so)
+            patchelf --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
     esac
 }
 
