@@ -332,6 +332,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+# Libstdc++
+PRODUCT_PACKAGES += \
+    libstdc++_vendor
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.2.vendor \
