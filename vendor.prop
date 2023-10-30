@@ -270,9 +270,6 @@ ro.odm.ownerinfo_maxlen=200
 ro.odm.pcba_oversea_customer=Micromax
 ro.odm.pcba_oversea_sub_customer=none
 ro.odm.picturezoom.mode.name=108MP
-ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
-ro.odm.product.cpu.abilist64=arm64-v8a
-ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.odm.professional.mode=1
 ro.odm.qs_panel=1
 ro.odm.qs_panel_style=1
@@ -365,9 +362,6 @@ ro.vendor.mtk_wappush_support=1
 ro.vendor.mtk_world_phone_policy=0
 ro.vendor.mtk_zsdhdr_support=1
 ro.vendor.num_md_protocol=2
-ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
-ro.vendor.product.cpu.abilist64=arm64-v8a
-ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.vendor.sim_me_lock_mode=0
 ro.vendor.sim_refresh_reset_by_modem=1
 ro.vendor.smvr.p2batch.hd=4
@@ -410,9 +404,6 @@ ro.vendor.mtk_ril_mode=c6m_1rild
 ro.vendor.mtk_rild_read_imsi=1
 ro.vendor.mtk_telephony_add_on_policy=0
 ro.vendor.radio.max.multisim=dsds
-
-# Shutdown
-ro.odm.shutdown_animation_play_time=6
 
 # USB
 persist.sys.usb.config=none
