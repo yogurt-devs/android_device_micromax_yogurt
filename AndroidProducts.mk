@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_yogurt.mk
+    $(LOCAL_DIR)/fuse_yogurt.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_yogurt-user \
-    lineage_yogurt-userdebug \
-    lineage_yogurt-eng
+    fuse_yogurt-user \
+    fuse_yogurt-userdebug \
+    fuse_yogurt-eng
