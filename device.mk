@@ -161,7 +161,8 @@ PRODUCT_PACKAGES += \
     libbundlewrapper \
     libdownmix \
     android.hardware.bluetooth@1.0.vendor \
-    android.hardware.bluetooth.a2dp@1.0.vendor
+    android.hardware.bluetooth.a2dp@1.0.vendor \
+    android.hardware.audio.sounddose-vendor-impl
 
 # Neural Networks
 PRODUCT_PACKAGES += \
