@@ -208,7 +208,9 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     android.hardware.wifi@1.3.vendor \
     android.hardware.wifi.supplicant@1.2.vendor \
-    android.hardware.wifi.hostapd@1.1.vendor
+    android.hardware.wifi.hostapd@1.1.vendor \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
