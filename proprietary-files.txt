@@ -311,14 +311,8 @@ vendor/lib64/libwvhidl.so|1f58f2ddcea8274b901d957296560bde5eb0b8ad
 vendor/lib64/mediadrm/libwvdrmengine.so|3fd3de4406f52d8988d779b58e2510dd2ac1b281
 
 # Display-Hardware
-vendor/bin/hw/android.hardware.memtrack@1.0-service
-vendor/etc/init/android.hardware.memtrack@1.0-service.rc
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.mt6768.so
 vendor/lib/hw/memtrack.mt6768.so
-vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.mt6768.so
 vendor/lib64/hw/hwcomposer.mt6768.so
 vendor/lib64/hw/memtrack.mt6768.so
